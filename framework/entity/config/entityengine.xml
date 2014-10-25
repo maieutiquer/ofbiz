@@ -453,7 +453,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
             join-style="ansi"
             use-binary-type-for-blob="true"
             use-order-by-nulls="true">
-            <!-- use this attribute to make the EntityListIterator more effective for pgjdbc 7.5devel and later:
+            <!-- use this att ribute to make the EntityListIterator more effective for pgjdbc 7.5devel and later:
                 result-fetch-size="50"
             -->
         <read-data reader-name="tenant"/>
